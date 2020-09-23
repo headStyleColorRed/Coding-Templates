@@ -28,6 +28,6 @@ fclean: clean
 
 clean :
 		@echo "\033[0;31m[Deleting Objects...]"
-	$(RM) -rf $(OBJS) *.o *gch *.out *.dSYM
+	$(RM) -rf $(OBJS) *.o *.gch *.out *.dSYM
 
 re:				fclean $(NAME)
